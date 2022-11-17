@@ -1,4 +1,4 @@
-# GG SQL Migration docker action
+# SQL Migration docker action
 
 This action runs SQL migrations
 
