@@ -1,4 +1,4 @@
-name: 'GG SQL Migration'
+name: 'SQL Migration'
 description: 'Run SQL Migrations'
 inputs:
   connection-string:
