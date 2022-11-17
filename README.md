@@ -18,7 +18,7 @@ Maximum time of the action.
 
 ## Example usage
 
-uses: actions/gg-sql-migration-action@v2
+uses: actions/sql-migration-action@v1
 with:
   connection-string: 'Server=tcp:{serverName}.windows.net,1433;Initial Catalog={dbName};Persist Security Info=False;User ID={appId};Password={appSecret};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Authentication=ActiveDirectoryServicePrincipal;'
   config-path: 'migrations/migrations.yml'
